@@ -1,0 +1,31 @@
+
+Utilizado nesse programa:
+	Jdk 1.7.0_80
+
+Informações importantes:
+	
+	está sendo disponibilizada juntamente com a solução uma pasta 'files' contendo um arquivo com extensão txt. Essa pasta 'files' precisa estar no mesmo diretório do arquivo jar para o programa executar com sucesso. Caso não esteja no mesmo diretório o programa lançará uma Exception informando que não foi possível localizá-los.
+
+- entrada.txt: As entradas que o programa deverá considerar para gerar as saídas. Inicialmente estão as entradas que foram enviadas por email como exemplos. Para testar com outras entradas basta inserí-las nesse arquivo. Também uma entrada por linha, uma de cada vez.
+
+
+IMPORTANTE!!!
+
+- Todo o código fonte está na pasta src.
+
+
+PARA EXECUTAR O PROGRAMA
+
+extrair a pasta para um local qualquer no computador: por exemplo downloads
+mudar para o diretório onde o src e a pasta 'files' estão
+	exemplo: cd downloads/processoSeletivo
+
+executar a aplicação
+	utilizar um programa para criação do .jar e executar ou via terminal ou através do programa de edição mesmo.
+	caso seja necessário modificar os dados dos hoteis para testar, este deverá ser feito na classe RealizaReserva, dentro da view, onde os hotéis são instanciados.
+	
+
+
+
+
+
